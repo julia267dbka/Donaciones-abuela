@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donaciones para Reconstruir la Casa de la Abuela</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Ayúdanos a Reconstruir la Casa de la Abuela</h1>
+        <p>Hace poco, la casa de nuestra querida abuela sufrió un incendio y se perdió todo. Estamos recaudando fondos para ayudarla a reconstruir su hogar y devolverle la seguridad que merece. Cualquier contribución, por pequeña que sea, es inmensamente apreciada.</p>
+        
+        <div class="donation-form">
+            <h2>Haz tu Donación</h2>
+            <form action="https://www.paypal.com/donate" method="post" target="_top">
+                <input type="hidden" name="business" value="Villanuevaeliash@gmail.com">
+                <input type="hidden" name="item_name" value="Reconstrucción de la Casa de la Abuela">
+                <input type="hidden" name="currency_code" value="USD">
+                <label for="amount">Monto (USD):</label>
+                <input type="number" name="amount" id="amount" min="1" required>
+                <button type="submit">Donar</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
